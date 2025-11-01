@@ -1,0 +1,107 @@
+{
+    "Header": {
+        "menu": "Menu",
+        "search": "Rechercher",
+        "cart": "Panier",
+        "profile": "Profil"
+    },
+    "HeroCarousel": {
+        "students": {
+            "category": "POUR LES ÉTUDIANTS",
+            "title": "CONÇU SPÉCIALEMENT POUR TOI",
+            "description": "Un seul profil. De vraies connexions. Des opportunités qui respectent ton temps et tes objectifs.",
+            "button": "Mon Espace Étudiant",
+            "googlePlayTitle": "Disponible sur Google Play",
+            "appStoreTitle": "Télécharger dans l'App Store"
+        },
+        "employers": {
+            "category": "POUR LES EMPLOYEURS",
+            "title": "RECRUTEZ & CONTRÔLEZ INTELLIGEMMENT",
+            "description": "Augmentez votre productivité. Publiez, associez, filtrez, planifiez et gérez, sur une seule plateforme. Utilisez des outils intelligents alimentés par l'IA.",
+            "button": "Commencer"
+        },
+        "services": {
+            "category": "SERVICES ÉTUDIANTS",
+            "title": "PLATEFORME TOUT-EN-UN",
+            "description": "Accédez au logement, au transport, à des réductions et plus encore. Tout ce dont un étudiant a besoin en un seul endroit.",
+            "button": "Explorer les services"
+        },
+        "appStore": {
+            "google": "Télécharger sur Google Play",
+            "apple": "Télécharger dans l'App Store"
+        }
+    },
+    "StudentServices": {
+        "title": "Ce Que Nous Avons Pour Les Étudiants",
+        "subtitle": "Tout ce dont vous avez besoin pour réussir en tant qu'étudiant, en un seul endroit. Explorez nos services complets conçus spécialement pour vous.",
+        "learnMore": "En savoir plus",
+        "services": {
+            "jobs": {
+                "title": "Jobs Étudiants",
+                "description": "Trouvez des emplois à temps partiel flexibles qui correspondent à votre emploi du temps. Gagnez de l'argent tout en étudiant."
+            },
+            "internships": {
+                "title": "Stages",
+                "description": "Acquérez une expérience professionnelle précieuse avec des stages dans votre domaine. Construisez votre carrière tout en complétant vos études."
+            },
+            "rooms": {
+                "title": "Kots",
+                "description": "Découvrez des options de logement abordables et pratiques près de votre campus. Trouvez l'endroit parfait pour vous sentir chez vous."
+            },
+            "drivingLicense": {
+                "title": "Permis de Conduire",
+                "description": "Obtenez votre permis de conduire avec des réductions exclusives pour étudiants. Comparez les auto-écoles et réservez des cours facilement."
+            },
+            "learningCenter": {
+                "title": "Centre d'Apprentissage",
+                "description": "Accédez à des supports d'étude, du tutorat et un soutien académique. Excellez dans vos cours avec nos ressources complètes."
+            },
+            "aiTools": {
+                "title": "Outils IA",
+                "description": "Exploitez des outils IA de pointe pour améliorer votre apprentissage. Obtenez une assistance intelligente pour les devoirs, la recherche et les projets."
+            }
+        }
+    },
+    "Footer": {
+        "about": {
+            "title": "EtudiantZ.be",
+            "description": "Connecter les étudiants aux opportunités et services essentiels. Une plateforme pour tout ce dont un étudiant a besoin."
+        },
+        "students": {
+            "title": "Pour les Étudiants",
+            "jobs": "Jobs Étudiants",
+            "housing": "Logement",
+            "transport": "Transport",
+            "discounts": "Réductions",
+            "profile": "Mon Profil"
+        },
+        "employers": {
+            "title": "Pour les Employeurs",
+            "postJob": "Publier une offre",
+            "findTalent": "Trouver des talents",
+            "pricing": "Tarifs",
+            "features": "Fonctionnalités",
+            "resources": "Ressources"
+        },
+        "company": {
+            "title": "Entreprise",
+            "about": "À propos",
+            "contact": "Contact",
+            "blog": "Blog",
+            "faq": "FAQ",
+            "support": "Support"
+        },
+        "newsletter": {
+            "title": "Restez Informé",
+            "description": "Abonnez-vous à notre newsletter pour les dernières opportunités et mises à jour.",
+            "placeholder": "Entrez votre email",
+            "button": "S'abonner"
+        },
+        "bottom": {
+            "rights": "Tous droits réservés.",
+            "privacy": "Politique de confidentialité",
+            "terms": "Conditions d'utilisation",
+            "cookies": "Politique de cookies"
+        }
+    }
+}

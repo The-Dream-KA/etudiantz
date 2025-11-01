@@ -1,0 +1,107 @@
+{
+    "Header": {
+        "menu": "Menu",
+        "search": "Search",
+        "cart": "Cart",
+        "profile": "Profile"
+    },
+    "HeroCarousel": {
+        "students": {
+            "category": "FOR STUDENTS",
+            "title": "BUILT SPECIALLY FOR YOU",
+            "description": "One profile. Real Connections. Opportunities that respect your time and goals.",
+            "button": "My Student Space",
+            "googlePlayTitle": "Get it on Google Play",
+            "appStoreTitle": "Download on the App Store"
+        },
+        "employers": {
+            "category": "FOR EMPLOYERS",
+            "title": "HIRE & CONTROL SMARTLY",
+            "description": "Boost your Productivity. Post, Match, Filter, Schedule and Manage, in One Platform. Use AI-powered Smart Tools.",
+            "button": "Get Started"
+        },
+        "services": {
+            "category": "STUDENT SERVICES",
+            "title": "ALL-IN-ONE PLATFORM",
+            "description": "Access housing, transportation, discounts, and more. Everything a student needs in one place.",
+            "button": "Explore services"
+        },
+        "appStore": {
+            "google": "Get it on Google Play",
+            "apple": "Download on the App Store"
+        }
+    },
+    "StudentServices": {
+        "title": "What We Have for Students",
+        "subtitle": "Everything you need to succeed as a student, all in one place. Explore our comprehensive services designed specifically for you.",
+        "learnMore": "Learn more",
+        "services": {
+            "jobs": {
+                "title": "Student Jobs",
+                "description": "Find flexible part-time jobs that fit your schedule. Earn money while studying with opportunities tailored for students."
+            },
+            "internships": {
+                "title": "Internships",
+                "description": "Gain valuable work experience with internships in your field. Build your career while completing your studies."
+            },
+            "rooms": {
+                "title": "Student Rooms",
+                "description": "Discover affordable and convenient housing options near your campus. Find the perfect place to call home."
+            },
+            "drivingLicense": {
+                "title": "Driving License",
+                "description": "Get your driving license with exclusive student discounts. Compare driving schools and book lessons easily."
+            },
+            "learningCenter": {
+                "title": "Learning Center",
+                "description": "Access study materials, tutoring, and academic support. Excel in your courses with our comprehensive resources."
+            },
+            "aiTools": {
+                "title": "AI Tools",
+                "description": "Leverage cutting-edge AI tools to enhance your learning. Get smart assistance for homework, research, and projects."
+            }
+        }
+    },
+    "Footer": {
+        "about": {
+            "title": "EtudiantZ.be",
+            "description": "Connecting students with opportunities and essential services. One platform for everything a student needs."
+        },
+        "students": {
+            "title": "For Students",
+            "jobs": "Student Jobs",
+            "housing": "Housing",
+            "transport": "Transportation",
+            "discounts": "Discounts & Deals",
+            "profile": "My Profile"
+        },
+        "employers": {
+            "title": "For Employers",
+            "postJob": "Post a Job",
+            "findTalent": "Find Talent",
+            "pricing": "Pricing",
+            "features": "Features",
+            "resources": "Resources"
+        },
+        "company": {
+            "title": "Company",
+            "about": "About Us",
+            "contact": "Contact",
+            "blog": "Blog",
+            "faq": "FAQ",
+            "support": "Support"
+        },
+        "newsletter": {
+            "title": "Stay Updated",
+            "description": "Subscribe to our newsletter for the latest opportunities and updates.",
+            "placeholder": "Enter your email",
+            "button": "Subscribe"
+        },
+        "bottom": {
+            "rights": "All rights reserved.",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service",
+            "cookies": "Cookie Policy"
+        }
+    }
+}

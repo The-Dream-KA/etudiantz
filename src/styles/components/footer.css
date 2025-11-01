@@ -1,0 +1,151 @@
+/* Footer Styles */
+.footer {
+    @apply bg-[#00e5ff] text-black;
+    position: relative;
+    margin-top: auto;
+}
+
+/* Footer Sections */
+.footer-section {
+    @apply flex flex-col gap-4;
+}
+
+.footer-title {
+    @apply text-3xl font-bold mb-2 tracking-tight;
+}
+
+.footer-description {
+    @apply text-sm leading-relaxed opacity-90 mb-4;
+}
+
+/* Footer Links */
+.footer-links {
+    @apply flex flex-col gap-2;
+}
+
+.footer-link {
+    /* Default: slightly larger bold black */
+    @apply text-base font-semibold text-black opacity-100 transition-all duration-200 inline-block transform;
+}
+
+.footer-link:hover {
+    /* On hover: bold, white, a bit bigger */
+    @apply text-white font-bold scale-110;
+}
+
+/* Social Media Links */
+.footer-social {
+    @apply flex gap-4 mt-4;
+}
+
+.footer-social-link {
+    @apply w-12 h-12 rounded-full bg-black/10 text-black hover:bg-black hover:text-white flex items-center justify-center transition-all duration-300 transform hover:scale-110;
+}
+
+/* Newsletter Section */
+.footer-newsletter {
+    @apply border-t border-b border-black/20 py-10 my-8;
+}
+
+.footer-newsletter-title {
+    @apply text-2xl font-bold mb-3;
+}
+
+.footer-newsletter-description {
+    @apply text-sm opacity-90 mb-6;
+}
+
+.footer-newsletter-form {
+    @apply flex flex-col sm:flex-row gap-3 max-w-md mx-auto;
+}
+
+.footer-newsletter-input {
+    @apply flex-1 px-4 py-3 rounded-lg border-2 border-black/20 bg-white/50 text-black placeholder:text-black/60 focus:outline-none focus:border-black focus:bg-white transition-all duration-200;
+}
+
+.footer-newsletter-button {
+    @apply px-6 py-3 bg-black text-[#00e5ff] font-semibold rounded-lg hover:bg-black/90 hover:shadow-lg transition-all duration-300 transform hover:scale-105 whitespace-nowrap;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    @apply pt-8;
+}
+
+.footer-bottom-content {
+    @apply flex flex-col md:flex-row justify-between items-center gap-4 text-sm;
+}
+
+.footer-copyright {
+    @apply opacity-90;
+}
+
+.footer-legal {
+    @apply flex items-center gap-3;
+}
+
+.footer-legal-link {
+    @apply text-base font-semibold text-black opacity-90 transition-all duration-200 inline-block transform;
+}
+
+.footer-legal-link:hover {
+    @apply text-white font-bold scale-110 opacity-100;
+}
+
+.footer-separator {
+    @apply opacity-50;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer-title {
+        @apply text-lg;
+    }
+
+    .footer-newsletter-title {
+        @apply text-xl;
+    }
+
+    .footer-bottom-content {
+        @apply text-center;
+    }
+
+    .footer-legal {
+        @apply flex-wrap justify-center;
+    }
+}
+
+/* Animation on Scroll (optional enhancement) */
+@media (prefers-reduced-motion: no-preference) {
+    .footer-section {
+        animation: fadeInUp 0.6s ease-out;
+    }
+
+    .footer-section:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    .footer-section:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .footer-section:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+
+    .footer-section:nth-child(4) {
+        animation-delay: 0.4s;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

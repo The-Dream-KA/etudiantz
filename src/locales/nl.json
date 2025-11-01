@@ -1,0 +1,107 @@
+{
+    "Header": {
+        "menu": "Menu",
+        "search": "Zoeken",
+        "cart": "Winkelwagen",
+        "profile": "Profiel"
+    },
+    "HeroCarousel": {
+        "students": {
+            "category": "VOOR STUDENTEN",
+            "title": "SPECIAAL VOOR JOU GEMAAKT",
+            "description": "Eén profiel. Echte connecties. Kansen die jouw tijd en doelen respecteren.",
+            "button": "Mijn Studentenruimte",
+            "googlePlayTitle": "Download in Google Play",
+            "appStoreTitle": "Download in de App Store"
+        },
+        "employers": {
+            "category": "VOOR WERKGEVERS",
+            "title": "REKRUTEER & BEHEER SLIM",
+            "description": "Verhoog uw productiviteit. Plaats, match, filter, plan en beheer, op één platform. Gebruik door AI aangedreven slimme tools.",
+            "button": "Aan de slag"
+        },
+        "services": {
+            "category": "STUDENTENDIENSTEN",
+            "title": "ALLES-IN-ÉÉN PLATFORM",
+            "description": "Krijg toegang tot huisvesting, vervoer, kortingen en meer. Alles wat een student nodig heeft op één plek.",
+            "button": "Ontdek diensten"
+        },
+        "appStore": {
+            "google": "Downloaden op Google Play",
+            "apple": "Downloaden in de App Store"
+        }
+    },
+    "StudentServices": {
+        "title": "Wat We Hebben Voor Studenten",
+        "subtitle": "Alles wat je nodig hebt om te slagen als student, op één plek. Ontdek onze uitgebreide diensten speciaal voor jou ontworpen.",
+        "learnMore": "Meer informatie",
+        "services": {
+            "jobs": {
+                "title": "Studentenjobs",
+                "description": "Vind flexibele deeltijdbanen die passen bij je schema. Verdien geld tijdens je studie met kansen op maat voor studenten."
+            },
+            "internships": {
+                "title": "Stages",
+                "description": "Doe waardevolle werkervaring op met stages in jouw vakgebied. Bouw aan je carrière tijdens je studie."
+            },
+            "rooms": {
+                "title": "Koten",
+                "description": "Ontdek betaalbare en handige huisvestingsopties in de buurt van je campus. Vind de perfecte plek om thuis te voelen."
+            },
+            "drivingLicense": {
+                "title": "Rijbewijs",
+                "description": "Haal je rijbewijs met exclusieve studentenkortingen. Vergelijk rijscholen en boek lessen eenvoudig."
+            },
+            "learningCenter": {
+                "title": "Leercentrum",
+                "description": "Toegang tot studiemateriaal, bijles en academische ondersteuning. Blinkt uit in je cursussen met onze uitgebreide bronnen."
+            },
+            "aiTools": {
+                "title": "AI-Tools",
+                "description": "Maak gebruik van geavanceerde AI-tools om je leren te verbeteren. Krijg slimme hulp bij huiswerk, onderzoek en projecten."
+            }
+        }
+    },
+    "Footer": {
+        "about": {
+            "title": "EtudiantZ.be",
+            "description": "Studenten verbinden met kansen en essentiële diensten. Eén platform voor alles wat een student nodig heeft."
+        },
+        "students": {
+            "title": "Voor Studenten",
+            "jobs": "Studentenjobs",
+            "housing": "Huisvesting",
+            "transport": "Vervoer",
+            "discounts": "Kortingen",
+            "profile": "Mijn Profiel"
+        },
+        "employers": {
+            "title": "Voor Werkgevers",
+            "postJob": "Plaats een vacature",
+            "findTalent": "Vind talent",
+            "pricing": "Prijzen",
+            "features": "Functies",
+            "resources": "Bronnen"
+        },
+        "company": {
+            "title": "Bedrijf",
+            "about": "Over ons",
+            "contact": "Contact",
+            "blog": "Blog",
+            "faq": "FAQ",
+            "support": "Ondersteuning"
+        },
+        "newsletter": {
+            "title": "Blijf op de hoogte",
+            "description": "Abonneer u op onze nieuwsbrief voor de laatste kansen en updates.",
+            "placeholder": "Vul uw e-mailadres in",
+            "button": "Abonneren"
+        },
+        "bottom": {
+            "rights": "Alle rechten voorbehouden.",
+            "privacy": "Privacybeleid",
+            "terms": "Servicevoorwaarden",
+            "cookies": "Cookiebeleid"
+        }
+    }
+}
