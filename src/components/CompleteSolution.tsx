@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import useTranslation from '@/hooks/useTranslation';
 import '@/styles/components/complete-solution.css';
+import '@/styles/components/fluid-highlight.css';
 
 interface CompleteSolutionProps {
     locale: string;
@@ -42,11 +43,29 @@ const CompleteSolution: React.FC<CompleteSolutionProps> = ({ locale }) => {
         { id: '5', title: features.feature5.title, description: features.feature5.description },
     ];
 
+    // Function to wrap the first word with highlighter effect
+    const highlightFirstWord = (text: string) => {
+        const words = text.split(' ');
+        if (words.length === 0) return text;
+
+        const firstWord = words[0];
+        const restOfText = words.slice(1).join(' ');
+
+        return (
+            <>
+                <span className="fluid-highlight-container">
+                    <span className="fluid-highlight fluid-highlight-white">{firstWord}</span>
+                </span>
+                {restOfText && ' ' + restOfText}
+            </>
+        );
+    };
+
     return (
         <section className="complete-solution-wrapper">
             <div className="container">
                 <div className="badge">{badge}</div>
-                <h2 className="title">{title}</h2>
+                <h2 className="title">{highlightFirstWord(title)}</h2>
 
                 {/* Straight Horizontal Timeline with checkmarks and green boxes */}
                 <div className="hz-timeline">

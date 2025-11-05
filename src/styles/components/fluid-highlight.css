@@ -67,6 +67,12 @@
     /* #ff0004 */
 }
 
+/* White preset for light backgrounds */
+.fluid-highlight-white {
+    --highlight-color: 255, 255, 255;
+    /* #FFFFFF */
+}
+
 /* Opacity variations */
 .fluid-highlight-light {
     --highlight-opacity: 0.3;
