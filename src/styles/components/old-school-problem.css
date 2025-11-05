@@ -1,0 +1,251 @@
+/* New Wavy Timeline Styles matching the horizontal pill cards with dashed connectors */
+
+.old-school-problem-wrapper {
+  padding: 100px 20px 40px;
+  text-align: center;
+  background-color: #f8f9fa;
+  overflow: visible;
+  position: relative;
+}
+
+.old-school-problem-wrapper .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  position: relative;
+  z-index: 1;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.15) 1px, transparent 1px),
+    #000000;
+  background-size: 60px 60px, 60px 60px, 100% 100%;
+  border-radius: 32px;
+  box-shadow:
+    0 10px 40px rgba(0, 0, 0, 0.3),
+    0 20px 60px rgba(0, 0, 0, 0.2),
+    0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.old-school-problem-wrapper .badge {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #ff4d4d;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.old-school-problem-wrapper .title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.old-school-problem-wrapper .subtitle {
+  font-size: 1.125rem;
+  color: #6c757d;
+  margin-bottom: 64px;
+}
+
+/* New horizontal line timeline */
+
+.hz-timeline {
+  position: relative;
+  padding: 80px 0 30px;
+}
+
+.hz-timeline-line {
+  position: absolute;
+  top: 116px;
+  /* 80px padding + 36px for marker center */
+  left: 36px;
+  /* half of marker width to start from center of first marker */
+  right: 36px;
+  /* half of marker width to end at center of last marker */
+  height: 4px;
+  background: #e2e8f0;
+  border-radius: 2px;
+  z-index: 0;
+}
+
+.hz-timeline-items {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+}
+
+.hz-item {
+  position: relative;
+  min-height: 160px;
+  padding-top: 54px;
+  text-align: center;
+}
+
+.hz-marker {
+  position: absolute;
+  top: 26px;
+  /* Position to align with timeline */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.hz-marker-circle {
+  width: 72px;
+  height: 72px;
+  background: #fff;
+  border: 4px solid #ff0004;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 18px rgba(255, 0, 4, .25);
+}
+
+.hz-step-box {
+  display: inline-block;
+  margin-top: 28px;
+  background: #ff1b1b;
+  color: #fff;
+  padding: 16px 18px;
+  border-radius: 12px;
+  min-width: 180px;
+  max-width: 260px;
+  min-height: 140px;
+  position: relative;
+  text-align: left;
+}
+
+.hz-step-box:before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 8px solid transparent;
+  border-bottom-color: #ff0004;
+}
+
+.hz-step-index {
+  display: inline-block;
+  background: rgba(255, 255, 255, .2);
+  font-weight: 800;
+  letter-spacing: .5px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-size: .85rem;
+}
+
+.hz-step-title {
+  margin: 0 0 10px 0;
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: 700;
+  color: #fff;
+}
+
+.hz-step-text {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  font-weight: 400;
+  opacity: 0.95;
+}
+
+.old-school-problem-wrapper .bottom-message {
+  margin-top: 56px;
+  font-size: 1.05rem;
+  font-style: italic;
+  color: #6c757d;
+}
+
+/* Mobile: Vertical Timeline */
+@media (max-width: 768px) {
+  .old-school-problem-wrapper {
+    padding: 60px 20px 40px;
+  }
+
+  .old-school-problem-wrapper .container {
+    padding: 40px 20px;
+  }
+
+  .old-school-problem-wrapper .title {
+    font-size: 1.8rem;
+  }
+
+  .hz-timeline {
+    padding: 40px 0 20px;
+    overflow-x: visible;
+  }
+
+  /* Vertical line instead of horizontal */
+  .hz-timeline-line {
+    top: 0;
+    left: 36px;
+    right: auto;
+    bottom: 0;
+    width: 4px;
+    height: auto;
+  }
+
+  /* Stack items vertically */
+  .hz-timeline-items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    min-width: auto;
+    padding-left: 80px;
+  }
+
+  .hz-item {
+    min-height: unset;
+    padding-top: 0;
+    text-align: left;
+  }
+
+  /* Position marker on the left */
+  .hz-marker {
+    top: 0;
+    left: -80px;
+    transform: none;
+  }
+
+  .hz-marker-circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* Adjust step box for vertical layout */
+  .hz-step-box {
+    margin-top: 0;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: unset;
+  }
+
+  /* Arrow pointing left instead of up */
+  .hz-step-box:before {
+    top: 20px;
+    left: -8px;
+    transform: none;
+    border: 8px solid transparent;
+    border-right-color: #ff0004;
+    border-bottom-color: transparent;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1100px) {
+  .hz-timeline-items {
+    gap: 16px;
+  }
+
+  .hz-step-box {
+    min-width: 160px;
+    max-width: 220px;
+    padding: 14px 16px;
+  }
+}

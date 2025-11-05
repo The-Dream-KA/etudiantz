@@ -31,14 +31,68 @@
             "apple": "Downloaden in de App Store"
         }
     },
+    "OldSchoolProblem": {
+        "badge": "DE OUDERWETSE MANIER",
+        "title": "Doe Je Het Nog Steeds Op De Moeilijke Manier?",
+        "subtitle": "Zo zoeken studenten in België vandaag nog steeds naar een job...",
+        "steps": {
+            "step1": {
+                "title": "Papieren CV om af te drukken",
+                "description": "Je moet je CV nog steeds afdrukken bij elke wijziging, gewoon om het ergens te kunnen afgeven."
+            },
+            "step2": {
+                "title": "Door de hele stad lopen",
+                "description": "Je gaat van winkel naar winkel zonder te weten wie studenten daadwerkelijk aanwerft."
+            },
+            "step3": {
+                "title": "CV op goed geluk uitdelen",
+                "description": "Je geeft je CV aan iedereen zonder opvolging, hopend dat het de juiste persoon bereikt."
+            },
+            "step4": {
+                "title": "Wachten zonder nieuws",
+                "description": "Geen antwoord, geen feedback, gewoon dagenlang wachten en hopen op een \"gelukkig\" telefoontje."
+            },
+            "step5": {
+                "title": "Roosters die niet te volgen zijn",
+                "description": "Je shifts staan op papier of in willekeurige WhatsApp-berichten, elke wijziging wordt chaos."
+            }
+        }
+    },
+    "CompleteSolution": {
+        "badge": "EINDELIJK, EEN COMPLETE OPLOSSING",
+        "title": "Eindelijk, Alles Wat Je Nodig Hebt Op Eén Plek",
+        "subtitle": "De slimme manier om je studentenwerkervaring te beheren",
+        "features": {
+            "feature1": {
+                "title": "Slim CV in minuten",
+                "description": "Importeer of scan je CV, laat AI het verbeteren en exporteer een gebruiksklare versie wanneer je wilt."
+            },
+            "feature2": {
+                "title": "Live jobs bij jou in de buurt",
+                "description": "Zie alleen actieve studentenjobs die passen bij je profiel, locatie en beschikbaarheid."
+            },
+            "feature3": {
+                "title": "Solliciteren met één klik",
+                "description": "Solliciteer op meerdere jobs met één profiel, zonder steeds hetzelfde formulier in te vullen."
+            },
+            "feature4": {
+                "title": "Sollicitatie tracker",
+                "description": "Volg al je sollicitaties op één plek en weet altijd of je in behandeling bent, geselecteerd of afgewezen."
+            },
+            "feature5": {
+                "title": "Slimme roosters",
+                "description": "Ontvang en update je werkroosters met 1 klik, met directe meldingen bij elke wijziging."
+            }
+        }
+    },
     "StudentServices": {
-        "title": "Wat We Hebben Voor Studenten",
-        "subtitle": "Alles wat je nodig hebt om te slagen als student, op één plek. Ontdek onze uitgebreide diensten speciaal voor jou ontworpen.",
+        "title": "We hebben je leven makkelijker gemaakt",
+        "subtitle": "Alles wat je nodig hebt om als student te slagen, op één plek. Dit is jouw plek.",
         "learnMore": "Meer informatie",
         "services": {
             "jobs": {
                 "title": "Studentenjobs",
-                "description": "Vind flexibele deeltijdbanen die passen bij je schema. Verdien geld tijdens je studie met kansen op maat voor studenten."
+                "description": "Eén profiel, echte studentenjobs: lokaal en afgestemd op je uurrooster."
             },
             "internships": {
                 "title": "Stages",
@@ -65,7 +119,7 @@
     "Footer": {
         "about": {
             "title": "EtudiantZ.be",
-            "description": "Studenten verbinden met kansen en essentiële diensten. Eén platform voor alles wat een student nodig heeft."
+            "description": "Het platform voor Generatie Z. Studenten verbinden met kansen en essentiële diensten, gebouwd voor de studenten van vandaag."
         },
         "students": {
             "title": "Voor Studenten",
@@ -84,7 +138,7 @@
             "resources": "Bronnen"
         },
         "company": {
-            "title": "Bedrijf",
+            "title": "EtudiantZ.be",
             "about": "Over ons",
             "contact": "Contact",
             "blog": "Blog",

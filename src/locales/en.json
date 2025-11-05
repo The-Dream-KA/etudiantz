@@ -31,14 +31,68 @@
             "apple": "Download on the App Store"
         }
     },
+    "OldSchoolProblem": {
+        "badge": "THE OLD-SCHOOL WAY",
+        "title": "Still Doing It The Hard Way?",
+        "subtitle": "This is how students in Belgium still hunt for jobs today...",
+        "steps": {
+            "step1": {
+                "title": "Printed paper CV",
+                "description": "You still have to print your CV every time you change it, just to drop it somewhere."
+            },
+            "step2": {
+                "title": "Walking around everywhere",
+                "description": "You go from shop to shop without even knowing who is actually hiring students."
+            },
+            "step3": {
+                "title": "CV given at random",
+                "description": "You hand your CV to everyone with no follow-up, just hoping it reaches the right person."
+            },
+            "step4": {
+                "title": "Waiting with no news",
+                "description": "No answer, no feedback, just waiting for days hoping for a \"lucky\" phone call."
+            },
+            "step5": {
+                "title": "Schedules you can't follow",
+                "description": "Your shifts live on paper or random WhatsApp messages, every change turns into chaos."
+            }
+        }
+    },
+    "CompleteSolution": {
+        "badge": "FINALLY, A COMPLETE SOLUTION",
+        "title": "Finally, Everything You Need In One Place",
+        "subtitle": "The smart way to manage your student work life",
+        "features": {
+            "feature1": {
+                "title": "Smart CV in minutes",
+                "description": "Import or scan your CV, let AI improve it and export a ready-to-use version anytime."
+            },
+            "feature2": {
+                "title": "Live jobs near you",
+                "description": "See only active student jobs that match your profile, location and availability."
+            },
+            "feature3": {
+                "title": "One-click applications",
+                "description": "Apply to several jobs with a single profile, no more repeating the same form again and again."
+            },
+            "feature4": {
+                "title": "Application tracker",
+                "description": "Follow all your applications in one place and always know if you're pending, shortlisted or declined."
+            },
+            "feature5": {
+                "title": "Smart schedules",
+                "description": "Receive and update your work schedules in 1-click, with instant notifications for any change."
+            }
+        }
+    },
     "StudentServices": {
-        "title": "What We Have for Students",
-        "subtitle": "Everything you need to succeed as a student, all in one place. Explore our comprehensive services designed specifically for you.",
+        "title": "We’ve made your life easier",
+        "subtitle": "Everything you need to succeed as a student, all in one place. This is Your Place.",
         "learnMore": "Learn more",
         "services": {
             "jobs": {
                 "title": "Student Jobs",
-                "description": "Find flexible part-time jobs that fit your schedule. Earn money while studying with opportunities tailored for students."
+                "description": "One profile, real student jobs: local and built around your timetable."
             },
             "internships": {
                 "title": "Internships",
@@ -65,7 +119,7 @@
     "Footer": {
         "about": {
             "title": "EtudiantZ.be",
-            "description": "Connecting students with opportunities and essential services. One platform for everything a student needs."
+            "description": "The Generation Z platform. Connecting students with opportunities and essential services, built for today's students."
         },
         "students": {
             "title": "For Students",
@@ -84,7 +138,7 @@
             "resources": "Resources"
         },
         "company": {
-            "title": "Company",
+            "title": "EtudiantZ.be",
             "about": "About Us",
             "contact": "Contact",
             "blog": "Blog",

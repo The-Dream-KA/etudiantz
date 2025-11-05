@@ -129,27 +129,27 @@ export default function Footer({ locale }: FooterProps) {
                         </h3>
                         <ul className="footer-links">
                             <li>
-                                <Link href="/students/jobs" className="footer-link">
+                                <Link href={`/${locale}/students/jobs`} className="footer-link">
                                     {t.students.jobs}
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/students/housing" className="footer-link">
+                                <Link href={`/${locale}/students/housing`} className="footer-link">
                                     {t.students.housing}
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/students/transport" className="footer-link">
+                                <Link href={`/${locale}/students/transport`} className="footer-link">
                                     {t.students.transport}
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/students/discounts" className="footer-link">
+                                <Link href={`/${locale}/students/discounts`} className="footer-link">
                                     {t.students.discounts}
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/students/profile" className="footer-link">
+                                <Link href={`/${locale}/students/profile`} className="footer-link">
                                     {t.students.profile}
                                 </Link>
                             </li>
@@ -163,27 +163,27 @@ export default function Footer({ locale }: FooterProps) {
                         </h3>
                         <ul className="footer-links">
                             <li>
-                                <Link href="/employers/post-job" className="footer-link">
+                                <Link href={`/${locale}/employers/post-job`} className="footer-link">
                                     {t.employers.postJob}
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/employers/find-talent" className="footer-link">
+                                <Link href={`/${locale}/employers/find-talent`} className="footer-link">
                                     {t.employers.findTalent}
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/employers/pricing" className="footer-link">
+                                <Link href={`/${locale}/employers/pricing`} className="footer-link">
                                     {t.employers.pricing}
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/employers/features" className="footer-link">
+                                <Link href={`/${locale}/employers/features`} className="footer-link">
                                     {t.employers.features}
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/employers/resources" className="footer-link">
+                                <Link href={`/${locale}/employers/resources`} className="footer-link">
                                     {t.employers.resources}
                                 </Link>
                             </li>
@@ -197,27 +197,27 @@ export default function Footer({ locale }: FooterProps) {
                         </h3>
                         <ul className="footer-links">
                             <li>
-                                <Link href="/about" className="footer-link">
+                                <Link href={`/${locale}/about`} className="footer-link">
                                     {t.company.about}
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/contact" className="footer-link">
+                                <Link href={`/${locale}/contact`} className="footer-link">
                                     {t.company.contact}
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/blog" className="footer-link">
+                                <Link href={`/${locale}/blog`} className="footer-link">
                                     {t.company.blog}
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/faq" className="footer-link">
+                                <Link href={`/${locale}/faq`} className="footer-link">
                                     {t.company.faq}
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/support" className="footer-link">
+                                <Link href={`/${locale}/support`} className="footer-link">
                                     {t.company.support}
                                 </Link>
                             </li>
@@ -234,15 +234,15 @@ export default function Footer({ locale }: FooterProps) {
                             © {currentYear} EtudiantZ.be. {t.bottom.rights}
                         </p>
                         <div className="footer-legal">
-                            <Link href="/privacy" className="footer-legal-link">
+                            <Link href={`/${locale}/privacy`} className="footer-legal-link">
                                 {t.bottom.privacy}
                             </Link>
                             <span className="footer-separator">•</span>
-                            <Link href="/terms" className="footer-legal-link">
+                            <Link href={`/${locale}/terms`} className="footer-legal-link">
                                 {t.bottom.terms}
                             </Link>
                             <span className="footer-separator">•</span>
-                            <Link href="/cookies" className="footer-legal-link">
+                            <Link href={`/${locale}/cookies`} className="footer-legal-link">
                                 {t.bottom.cookies}
                             </Link>
                         </div>

@@ -1,0 +1,14 @@
+.languageButton {
+    background-color: white;
+    color: black;
+}
+
+.languageButton.selected {
+    background-color: #00e5ff;
+    color: black;
+}
+
+.languageButton:hover:not(.selected) {
+    background-color: #00e5ff;
+    color: black;
+}

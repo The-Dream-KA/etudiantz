@@ -46,7 +46,7 @@ const StudentServices = ({ locale }: StudentServicesProps) => {
                 />
             ),
             key: 'jobs',
-            link: '/jobs'
+            link: `/${locale}/jobs`
         },
         {
             icon: (
@@ -57,7 +57,7 @@ const StudentServices = ({ locale }: StudentServicesProps) => {
                 />
             ),
             key: 'internships',
-            link: '/internships'
+            link: `/${locale}/internships`
         },
         {
             icon: (
@@ -68,7 +68,7 @@ const StudentServices = ({ locale }: StudentServicesProps) => {
                 />
             ),
             key: 'rooms',
-            link: '/kots'
+            link: `/${locale}/kots`
         },
         {
             icon: (
@@ -79,7 +79,7 @@ const StudentServices = ({ locale }: StudentServicesProps) => {
                 />
             ),
             key: 'drivingLicense',
-            link: '/driving-license'
+            link: `/${locale}/driving-license`
         },
         {
             icon: (
@@ -90,7 +90,7 @@ const StudentServices = ({ locale }: StudentServicesProps) => {
                 />
             ),
             key: 'learningCenter',
-            link: '/learning-center'
+            link: `/${locale}/learning-center`
         },
         {
             icon: (
@@ -101,7 +101,7 @@ const StudentServices = ({ locale }: StudentServicesProps) => {
                 />
             ),
             key: 'aiTools',
-            link: '/ai-tools'
+            link: `/${locale}/ai-tools`
         }
     ];
 

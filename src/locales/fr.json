@@ -31,14 +31,68 @@
             "apple": "Télécharger dans l'App Store"
         }
     },
+    "OldSchoolProblem": {
+        "badge": "L'ANCIENNE MÉTHODE",
+        "title": "Tu Le Fais Encore À L'Ancienne ?",
+        "subtitle": "Voici comment les étudiants en Belgique cherchent encore un job aujourd'hui...",
+        "steps": {
+            "step1": {
+                "title": "CV papier à imprimer",
+                "description": "Tu dois encore imprimer ton CV à chaque changement, juste pour pouvoir le déposer quelque part."
+            },
+            "step2": {
+                "title": "Faire le tour de la ville",
+                "description": "Tu te déplaces de magasin en magasin sans savoir qui recrute vraiment des étudiants."
+            },
+            "step3": {
+                "title": "CV distribué au hasard",
+                "description": "Tu donnes ton CV à tout le monde sans suivi, en espérant tomber sur la bonne personne."
+            },
+            "step4": {
+                "title": "Attente sans nouvelles",
+                "description": "Aucune réponse, aucun retour, juste attendre des jours en espérant un appel \"par chance\"."
+            },
+            "step5": {
+                "title": "Horaires impossibles à suivre",
+                "description": "Tes horaires sont sur des papiers ou des messages WhatsApp perdus, chaque changement devient un chaos."
+            }
+        }
+    },
+    "CompleteSolution": {
+        "badge": "ENFIN, UNE SOLUTION COMPLÈTE",
+        "title": "Enfin, Tout Ce Dont Tu As Besoin En Un Seul Endroit",
+        "subtitle": "La manière intelligente de gérer ta vie professionnelle étudiante",
+        "features": {
+            "feature1": {
+                "title": "CV intelligent en quelques minutes",
+                "description": "Importe ou scanne ton CV, laisse l'IA l'améliorer et exporte une version prête à l'emploi quand tu veux."
+            },
+            "feature2": {
+                "title": "Jobs étudiants en temps réel",
+                "description": "Ne vois que les jobs étudiants actifs qui correspondent à ton profil, ta localisation et tes dispos."
+            },
+            "feature3": {
+                "title": "Candidatures en un clic",
+                "description": "Postule à plusieurs jobs avec un seul profil, sans retaper les mêmes infos à chaque fois."
+            },
+            "feature4": {
+                "title": "Suivi de candidatures",
+                "description": "Suis toutes tes candidatures au même endroit et sais toujours si tu es en attente, retenu·e ou refusé·e."
+            },
+            "feature5": {
+                "title": "Horaires intelligents",
+                "description": "Reçois et mets à jour tes horaires en 1 clic, avec des notifications instantanées au moindre changement."
+            }
+        }
+    },
     "StudentServices": {
-        "title": "Ce Que Nous Avons Pour Les Étudiants",
-        "subtitle": "Tout ce dont vous avez besoin pour réussir en tant qu'étudiant, en un seul endroit. Explorez nos services complets conçus spécialement pour vous.",
+        "title": "On t’a simplifié la vie",
+        "subtitle": "Tout ce dont vous avez besoin pour réussir en tant qu'étudiant, en un seul endroit. C'est votre place.",
         "learnMore": "En savoir plus",
         "services": {
             "jobs": {
                 "title": "Jobs Étudiants",
-                "description": "Trouvez des emplois à temps partiel flexibles qui correspondent à votre emploi du temps. Gagnez de l'argent tout en étudiant."
+                "description": "Un seul profil, de vrais jobs étudiants : locaux et adaptés à ton horaire."
             },
             "internships": {
                 "title": "Stages",
@@ -65,7 +119,7 @@
     "Footer": {
         "about": {
             "title": "EtudiantZ.be",
-            "description": "Connecter les étudiants aux opportunités et services essentiels. Une plateforme pour tout ce dont un étudiant a besoin."
+            "description": "La plateforme de la Génération Z. Connecter les étudiants aux opportunités et services essentiels, conçue pour les étudiants d'aujourd'hui."
         },
         "students": {
             "title": "Pour les Étudiants",
@@ -84,7 +138,7 @@
             "resources": "Ressources"
         },
         "company": {
-            "title": "Entreprise",
+            "title": "EtudiantZ.be",
             "about": "À propos",
             "contact": "Contact",
             "blog": "Blog",

@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
+import { useRouter, usePathname } from 'next/navigation';
 import { ChevronDown } from 'lucide-react';
-import { PRIMARY_COLOR } from '@/lib/constants';
+import styles from './LanguageSwitcher.module.css';
 
 const languages = [
     { code: 'en', name: 'EN', fullName: 'English' },
@@ -11,13 +12,20 @@ const languages = [
 ];
 
 interface LanguageSwitcherProps {
-    onLocaleChange: (locale: string) => void;
+    currentLocale: string;
 }
 
-export default function LanguageSwitcher({ onLocaleChange }: LanguageSwitcherProps) {
+export default function LanguageSwitcher({ currentLocale }: LanguageSwitcherProps) {
+    const router = useRouter();
+    const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
-    const [selectedLanguage, setSelectedLanguage] = useState(languages[0]);
     const dropdownRef = useRef<HTMLDivElement>(null);
+
+    // Use useMemo to derive selected language from currentLocale
+    const selectedLanguage = useMemo(() =>
+        languages.find(lang => lang.code === currentLocale) || languages[1],
+        [currentLocale]
+    );
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {
@@ -31,9 +39,14 @@ export default function LanguageSwitcher({ onLocaleChange }: LanguageSwitcherPro
     }, []);
 
     const handleLanguageChange = (language: typeof languages[0]) => {
-        setSelectedLanguage(language);
         setIsOpen(false);
-        onLocaleChange(language.code);
+
+        // Replace the locale in the current path
+        const segments = pathname.split('/');
+        segments[1] = language.code; // Replace locale segment
+        const newPath = segments.join('/');
+
+        router.push(newPath);
     };
 
     return (
@@ -54,24 +67,7 @@ export default function LanguageSwitcher({ onLocaleChange }: LanguageSwitcherPro
                         <button
                             key={lang.code}
                             onClick={() => handleLanguageChange(lang)}
-                            className={`flex items-center justify-between w-full px-3 sm:px-4 py-2 sm:py-3 text-xs sm:text-sm font-medium text-black hover:text-white transition-all duration-200 ${index !== languages.length - 1 ? 'border-b border-gray-200' : ''
-                                }`}
-                            style={{
-                                backgroundColor: selectedLanguage.code === lang.code ? PRIMARY_COLOR : 'white',
-                                color: selectedLanguage.code === lang.code ? 'black' : 'black',
-                            }}
-                            onMouseEnter={(e) => {
-                                if (selectedLanguage.code !== lang.code) {
-                                    e.currentTarget.style.backgroundColor = PRIMARY_COLOR;
-                                    e.currentTarget.style.color = 'black';
-                                }
-                            }}
-                            onMouseLeave={(e) => {
-                                if (selectedLanguage.code !== lang.code) {
-                                    e.currentTarget.style.backgroundColor = 'white';
-                                    e.currentTarget.style.color = 'black';
-                                }
-                            }}
+                            className={`${styles.languageButton} ${selectedLanguage.code === lang.code ? styles.selected : ''} flex items-center justify-between w-full px-3 sm:px-4 py-2 sm:py-3 text-xs sm:text-sm font-medium transition-all duration-200 ${index !== languages.length - 1 ? 'border-b border-gray-200' : ''}`}
                         >
                             <span className="font-bold">{lang.name}</span>
                             <span className="text-xs opacity-75 hidden sm:inline">{lang.fullName}</span>
