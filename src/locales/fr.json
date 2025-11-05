@@ -116,6 +116,21 @@
             }
         }
     },
+    "CallToAction": {
+        "badge": "PRÊT À COMMENCER ?",
+        "students": {
+            "category": "POUR LES ÉTUDIANTS",
+            "title": "Mon Espace Étudiant",
+            "button": "Mon Espace Étudiant",
+            "googlePlayTitle": "Disponible sur Google Play",
+            "appStoreTitle": "Télécharger dans l'App Store"
+        },
+        "employers": {
+            "category": "POUR LES EMPLOYEURS",
+            "title": "Commencer",
+            "button": "Commencer"
+        }
+    },
     "Footer": {
         "about": {
             "title": "EtudiantZ.be",

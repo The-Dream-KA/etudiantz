@@ -6,6 +6,7 @@ import HeroCarousel from "@/components/HeroCarousel";
 import OldSchoolProblem from "@/components/OldSchoolProblem";
 import CompleteSolution from "@/components/CompleteSolution";
 import StudentServices from "@/components/StudentServices";
+import CallToAction from "@/components/CallToAction";
 import Footer from "@/components/Footer";
 
 export default function Home({ params }: { params: Promise<{ locale: string }> }) {
@@ -19,6 +20,7 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
                 <OldSchoolProblem locale={locale} />
                 <CompleteSolution locale={locale} />
                 <StudentServices locale={locale} />
+                <CallToAction locale={locale} />
             </main>
             <Footer locale={locale} />
         </div>

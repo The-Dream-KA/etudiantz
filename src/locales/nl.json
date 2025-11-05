@@ -116,6 +116,21 @@
             }
         }
     },
+    "CallToAction": {
+        "badge": "KLAAR OM TE BEGINNEN ?",
+        "students": {
+            "category": "VOOR STUDENTEN",
+            "title": "Mijn Studentenruimte",
+            "button": "Mijn Studentenruimte",
+            "googlePlayTitle": "Download in Google Play",
+            "appStoreTitle": "Download in de App Store"
+        },
+        "employers": {
+            "category": "VOOR WERKGEVERS",
+            "title": "Aan de slag",
+            "button": "Aan de slag"
+        }
+    },
     "Footer": {
         "about": {
             "title": "EtudiantZ.be",

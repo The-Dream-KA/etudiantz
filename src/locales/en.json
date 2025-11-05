@@ -116,6 +116,21 @@
             }
         }
     },
+    "CallToAction": {
+        "badge": "READY TO GET STARTED ?",
+        "students": {
+            "category": "FOR STUDENTS",
+            "title": "My Student Space",
+            "button": "My Student Space",
+            "googlePlayTitle": "Get it on Google Play",
+            "appStoreTitle": "Download on the App Store"
+        },
+        "employers": {
+            "category": "FOR EMPLOYERS",
+            "title": "Get Started",
+            "button": "Get Started"
+        }
+    },
     "Footer": {
         "about": {
             "title": "EtudiantZ.be",
