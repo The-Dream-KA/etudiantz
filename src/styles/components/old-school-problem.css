@@ -106,7 +106,8 @@
 }
 
 .hz-step-box {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin-top: 28px;
   background: #ff1b1b;
   color: #fff;
@@ -114,7 +115,7 @@
   border-radius: 12px;
   min-width: 180px;
   max-width: 260px;
-  min-height: 140px;
+  height: 200px;
   position: relative;
   text-align: left;
 }
@@ -138,6 +139,8 @@
   border-radius: 6px;
   margin-bottom: 8px;
   font-size: .85rem;
+  width: fit-content;
+  align-self: flex-start;
 }
 
 .hz-step-title {
@@ -224,7 +227,7 @@
     margin-top: 0;
     min-width: 100%;
     max-width: 100%;
-    min-height: unset;
+    height: auto;
   }
 
   /* Arrow pointing left instead of up */

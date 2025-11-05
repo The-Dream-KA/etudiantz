@@ -5,6 +5,11 @@
     margin-top: auto;
 }
 
+/* Brand Section */
+.footer-brand {
+    @apply flex items-center;
+}
+
 /* Footer Sections */
 .footer-section {
     @apply flex flex-col gap-4;
@@ -35,11 +40,11 @@
 
 /* Social Media Links */
 .footer-social {
-    @apply flex gap-4 mt-4;
+    @apply flex gap-3 mt-4;
 }
 
 .footer-social-link {
-    @apply w-12 h-12 rounded-full bg-black/10 text-black hover:bg-black hover:text-white flex items-center justify-center transition-all duration-300 transform hover:scale-110;
+    @apply w-12 h-12 rounded-xl bg-white/90 text-black hover:bg-white hover:text-black flex items-center justify-center transition-all duration-300 transform hover:scale-110 shadow-md hover:shadow-lg;
 }
 
 /* Newsletter Section */
