@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import useTranslation from '@/hooks/useTranslation';
 import '@/styles/components/service-card.css';
+import '@/styles/components/fluid-highlight.css';
 
 interface StudentServicesProps {
     locale: string;
@@ -105,13 +106,35 @@ const StudentServices = ({ locale }: StudentServicesProps) => {
         }
     ];
 
+    // Define words to highlight per locale
+    const highlightWords: Record<string, string> = {
+        'fr': 'simplifié',
+        'en': 'easier',
+        'nl': 'makkelijker'
+    };
+
+    const wordToHighlight = highlightWords[locale] || '';
+
     return (
         <section className="py-20 px-6 bg-white">
             <div className="max-w-7xl mx-auto">
                 {/* Section Header */}
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                        {t.title}
+                        {typeof t.title === 'string' && wordToHighlight && t.title.includes(wordToHighlight) ? (
+                            t.title.split(wordToHighlight).map((part, index, array) => (
+                                index < array.length - 1 ? (
+                                    <span key={index}>
+                                        {part}
+                                        <span className="fluid-highlight-container">
+                                            <span className="fluid-highlight">{wordToHighlight}</span>
+                                        </span>
+                                    </span>
+                                ) : part
+                            ))
+                        ) : (
+                            t.title
+                        )}
                     </h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                         {t.subtitle}

@@ -1,0 +1,102 @@
+/* Highlighter Marker Effect - Hand-drawn Style - Reusable */
+.fluid-highlight-container {
+    display: inline-block;
+    position: relative;
+
+    /* Default values - can be overridden */
+    --highlight-color: 0, 229, 255;
+    /* RGB values for cyan #00E5FF */
+    --highlight-opacity: 1;
+    --highlight-height: 45%;
+    --highlight-rotation: -2deg;
+    --highlight-skew: -3deg;
+    --highlight-border-radius: 50% 30% 45% 35% / 40% 50% 30% 60%;
+    --highlight-left-offset: -4%;
+    --highlight-right-offset: -4%;
+    --highlight-bottom-offset: 2%;
+}
+
+.fluid-highlight {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.fluid-highlight::before {
+    content: '';
+    position: absolute;
+    left: var(--highlight-left-offset);
+    right: var(--highlight-right-offset);
+    bottom: var(--highlight-bottom-offset);
+    height: var(--highlight-height);
+    background: rgba(var(--highlight-color), var(--highlight-opacity));
+    border-radius: var(--highlight-border-radius);
+    z-index: -1;
+    transform: rotate(var(--highlight-rotation)) skewX(var(--highlight-skew));
+}
+
+/* Preset color variations */
+.fluid-highlight-cyan {
+    --highlight-color: 0, 229, 255;
+    /* #00E5FF */
+}
+
+.fluid-highlight-yellow {
+    --highlight-color: 255, 235, 59;
+    /* #FFEB3B */
+}
+
+.fluid-highlight-pink {
+    --highlight-color: 255, 64, 129;
+    /* #FF4081 */
+}
+
+.fluid-highlight-green {
+    --highlight-color: 76, 175, 80;
+    /* #4CAF50 */
+}
+
+.fluid-highlight-orange {
+    --highlight-color: 255, 152, 0;
+    /* #FF9800 */
+}
+
+/* Red preset for ad-hoc highlights */
+.fluid-highlight-red {
+    --highlight-color: 255, 0, 4;
+    /* #ff0004 */
+}
+
+/* Opacity variations */
+.fluid-highlight-light {
+    --highlight-opacity: 0.3;
+}
+
+.fluid-highlight-medium {
+    --highlight-opacity: 1;
+}
+
+.fluid-highlight-strong {
+    --highlight-opacity: 1;
+}
+
+/* Rotation variations */
+.fluid-highlight-straight {
+    --highlight-rotation: 0deg;
+    --highlight-skew: 0deg;
+}
+
+.fluid-highlight-slight-tilt {
+    --highlight-rotation: 0deg;
+    --highlight-skew: 0deg;
+}
+
+.fluid-highlight-medium-tilt {
+    --highlight-rotation: -2deg;
+    --highlight-skew: -1deg;
+}
+
+.fluid-highlight-strong-tilt {
+    --highlight-rotation: -6deg;
+    --highlight-skew: -2deg;
+}

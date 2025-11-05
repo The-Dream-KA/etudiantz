@@ -41,6 +41,10 @@ export default function LanguageSwitcher({ currentLocale }: LanguageSwitcherProp
     const handleLanguageChange = (language: typeof languages[0]) => {
         setIsOpen(false);
 
+        // Save current scroll position before navigation
+        const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+        sessionStorage.setItem('scrollPosition', scrollPosition.toString());
+
         // Replace the locale in the current path
         const segments = pathname.split('/');
         segments[1] = language.code; // Replace locale segment

@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import useTranslation from '@/hooks/useTranslation';
 import '@/styles/components/old-school-problem.css';
+import '@/styles/components/fluid-highlight.css';
 
 interface OldSchoolProblemProps {
     locale: string;
@@ -40,6 +41,16 @@ const OldSchoolProblem: React.FC<OldSchoolProblemProps> = ({ locale }) => {
         { id: '4', title: steps.step4.title, description: steps.step4.description },
         { id: '5', title: steps.step5.title, description: steps.step5.description },
     ];
+
+    // Define words to highlight per locale
+    const highlightWords: Record<string, string> = {
+        'fr': 'Ancienne',
+        'en': 'Hard',
+        'nl': 'Moeilijke'
+    };
+
+    const wordToHighlight = highlightWords[locale] || '';
+
     // SVG helpers for dashed ellipses and connectors
     // old variables from ellipse layout removed
 
@@ -47,7 +58,24 @@ const OldSchoolProblem: React.FC<OldSchoolProblemProps> = ({ locale }) => {
         <section className="old-school-problem-wrapper">
             <div className="container">
                 <div className="badge">{badge}</div>
-                <h2 className="title">{title}</h2>
+                <h2 className="title">
+                    {typeof title === 'string' && wordToHighlight && title.includes(wordToHighlight) ? (
+                        title.split(wordToHighlight).map((part, index, array) => (
+                            index < array.length - 1 ? (
+                                <span key={index}>
+                                    {part}
+                                    <span className="fluid-highlight-container fluid-highlight-red">
+                                        <span className="fluid-highlight">{wordToHighlight}</span>
+                                    </span>
+                                </span>
+                            ) : (
+                                part
+                            )
+                        ))
+                    ) : (
+                        title
+                    )}
+                </h2>
 
                 {/* Straight Horizontal Timeline with big crosses and red boxes */}
                 <div className="hz-timeline">
