@@ -172,5 +172,101 @@
             "terms": "Terms of Service",
             "cookies": "Cookie Policy"
         }
+    },
+    "UserMenu": {
+        "signIn": "Sign in",
+        "dashboard": "Dashboard",
+        "profile": "My profile",
+        "settings": "Settings",
+        "signOut": "Sign out"
+    },
+    "Auth": {
+        "title": "Sign in to your account",
+        "signInTab": "Sign In",
+        "signUpTab": "Sign Up",
+        "fullName": "Full Name",
+        "fullNamePlaceholder": "John Doe",
+        "email": "Email",
+        "emailPlaceholder": "you@example.com",
+        "password": "Password",
+        "passwordPlaceholder": "••••••••",
+        "forgotPassword": "Forgot password?",
+        "signInButton": "Sign In",
+        "signUpButton": "Create Account",
+        "orDivider": "or",
+        "googleLogin": "Google login",
+        "notRegistered": "Not registered yet?",
+        "createAccount": "Create your account",
+        "resetPassword": {
+            "title": "Forgot password?",
+            "subtitle": "Enter your email to receive a reset link",
+            "sendButton": "Send Link",
+            "backToSignIn": "Back to sign in",
+            "sending": "Sending..."
+        },
+        "loading": {
+            "signingIn": "Signing in...",
+            "signingUp": "Creating...",
+            "sendingReset": "Sending..."
+        },
+        "errors": {
+            "passwordTooShort": "Password must be at least 8 characters long",
+            "invalidCredentials": "Invalid email or password",
+            "accountCreationFailed": "Failed to create account",
+            "resetFailed": "Failed to send reset email",
+            "googleSignInFailed": "Failed to sign in with Google",
+            "unexpectedError": "An unexpected error occurred. Please try again."
+        }
+    },
+    "Dashboard": {
+        "title": "Dashboard",
+        "welcome": "Welcome",
+        "stats": {
+            "logins": "Logins",
+            "status": "Status",
+            "role": "Role"
+        },
+        "profileInfo": {
+            "title": "Profile Information",
+            "email": "Email",
+            "fullName": "Full Name",
+            "language": "Preferred Language",
+            "emailVerified": "Email Verified",
+            "lastLogin": "Last Login",
+            "notSet": "Not set",
+            "yes": "Yes",
+            "no": "No"
+        },
+        "quickActions": {
+            "title": "Quick Actions",
+            "courses": {
+                "title": "My Courses",
+                "description": "View my courses"
+            },
+            "schedule": {
+                "title": "Schedule",
+                "description": "Manage my schedule"
+            },
+            "documents": {
+                "title": "Documents",
+                "description": "My documents"
+            },
+            "community": {
+                "title": "Community",
+                "description": "Join groups"
+            }
+        },
+        "roles": {
+            "student": "Student",
+            "tutor": "Tutor",
+            "admin": "Administrator",
+            "super_admin": "Super Administrator"
+        },
+        "statuses": {
+            "active": "Active",
+            "inactive": "Inactive",
+            "suspended": "Suspended",
+            "pending_verification": "Pending Verification"
+        }
     }
 }

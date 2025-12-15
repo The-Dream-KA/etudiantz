@@ -172,5 +172,101 @@
             "terms": "Conditions d'utilisation",
             "cookies": "Politique de cookies"
         }
+    },
+    "UserMenu": {
+        "signIn": "Se connecter",
+        "dashboard": "Tableau de bord",
+        "profile": "Mon profil",
+        "settings": "Paramètres",
+        "signOut": "Se déconnecter"
+    },
+    "Auth": {
+        "title": "Connecte-toi à ton compte",
+        "signInTab": "Connexion",
+        "signUpTab": "Inscription",
+        "fullName": "Nom complet",
+        "fullNamePlaceholder": "Jean Dupont",
+        "email": "Email",
+        "emailPlaceholder": "vous@exemple.com",
+        "password": "Mot de passe",
+        "passwordPlaceholder": "••••••••",
+        "forgotPassword": "Mot de passe oublié?",
+        "signInButton": "Connexion",
+        "signUpButton": "Créer mon compte",
+        "orDivider": "ou",
+        "googleLogin": "Google login",
+        "notRegistered": "Pas encore inscrit?",
+        "createAccount": "Crée ton compte",
+        "resetPassword": {
+            "title": "Mot de passe oublié?",
+            "subtitle": "Entrez votre email pour recevoir un lien de réinitialisation",
+            "sendButton": "Envoyer le lien",
+            "backToSignIn": "Retour à la connexion",
+            "sending": "Envoi en cours..."
+        },
+        "loading": {
+            "signingIn": "Connexion...",
+            "signingUp": "Création...",
+            "sendingReset": "Envoi en cours..."
+        },
+        "errors": {
+            "passwordTooShort": "Le mot de passe doit contenir au moins 8 caractères",
+            "invalidCredentials": "Email ou mot de passe invalide",
+            "accountCreationFailed": "Échec de la création du compte",
+            "resetFailed": "Échec de l'envoi de l'email de réinitialisation",
+            "googleSignInFailed": "Échec de la connexion avec Google",
+            "unexpectedError": "Une erreur inattendue s'est produite. Veuillez réessayer."
+        }
+    },
+    "Dashboard": {
+        "title": "Tableau de bord",
+        "welcome": "Bienvenue",
+        "stats": {
+            "logins": "Connexions",
+            "status": "Statut",
+            "role": "Rôle"
+        },
+        "profileInfo": {
+            "title": "Informations du profil",
+            "email": "Email",
+            "fullName": "Nom complet",
+            "language": "Langue préférée",
+            "emailVerified": "Email vérifié",
+            "lastLogin": "Dernière connexion",
+            "notSet": "Non défini",
+            "yes": "Oui",
+            "no": "Non"
+        },
+        "quickActions": {
+            "title": "Actions rapides",
+            "courses": {
+                "title": "Mes cours",
+                "description": "Voir mes cours"
+            },
+            "schedule": {
+                "title": "Planning",
+                "description": "Gérer mon emploi du temps"
+            },
+            "documents": {
+                "title": "Documents",
+                "description": "Mes documents"
+            },
+            "community": {
+                "title": "Communauté",
+                "description": "Rejoindre des groupes"
+            }
+        },
+        "roles": {
+            "student": "Étudiant",
+            "tutor": "Tuteur",
+            "admin": "Administrateur",
+            "super_admin": "Super Administrateur"
+        },
+        "statuses": {
+            "active": "Actif",
+            "inactive": "Inactif",
+            "suspended": "Suspendu",
+            "pending_verification": "En attente de vérification"
+        }
     }
 }

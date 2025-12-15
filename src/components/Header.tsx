@@ -1,6 +1,7 @@
 'use client';
 
 import LanguageSwitcher from './LanguageSwitcher';
+import UserMenu from './UserMenu';
 import Link from 'next/link';
 
 interface HeaderProps {
@@ -24,6 +25,7 @@ export default function Header({ locale }: HeaderProps) {
                 {/* Right Side Actions */}
                 <div className="flex items-center gap-2 sm:gap-4 justify-end">
                     <LanguageSwitcher currentLocale={locale} />
+                    <UserMenu />
                 </div>
             </div>
         </header>

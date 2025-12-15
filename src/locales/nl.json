@@ -172,5 +172,101 @@
             "terms": "Servicevoorwaarden",
             "cookies": "Cookiebeleid"
         }
+    },
+    "UserMenu": {
+        "signIn": "Inloggen",
+        "dashboard": "Dashboard",
+        "profile": "Mijn profiel",
+        "settings": "Instellingen",
+        "signOut": "Uitloggen"
+    },
+    "Auth": {
+        "title": "Log in op je account",
+        "signInTab": "Inloggen",
+        "signUpTab": "Registreren",
+        "fullName": "Volledige naam",
+        "fullNamePlaceholder": "Jan Jansen",
+        "email": "E-mail",
+        "emailPlaceholder": "jij@voorbeeld.nl",
+        "password": "Wachtwoord",
+        "passwordPlaceholder": "••••••••",
+        "forgotPassword": "Wachtwoord vergeten?",
+        "signInButton": "Inloggen",
+        "signUpButton": "Account aanmaken",
+        "orDivider": "of",
+        "googleLogin": "Google login",
+        "notRegistered": "Nog niet geregistreerd?",
+        "createAccount": "Maak je account aan",
+        "resetPassword": {
+            "title": "Wachtwoord vergeten?",
+            "subtitle": "Vul je e-mailadres in om een resetlink te ontvangen",
+            "sendButton": "Verstuur link",
+            "backToSignIn": "Terug naar inloggen",
+            "sending": "Verzenden..."
+        },
+        "loading": {
+            "signingIn": "Inloggen...",
+            "signingUp": "Aanmaken...",
+            "sendingReset": "Verzenden..."
+        },
+        "errors": {
+            "passwordTooShort": "Wachtwoord moet minimaal 8 tekens bevatten",
+            "invalidCredentials": "Ongeldig e-mailadres of wachtwoord",
+            "accountCreationFailed": "Account aanmaken mislukt",
+            "resetFailed": "Versturen van reset-e-mail mislukt",
+            "googleSignInFailed": "Inloggen met Google mislukt",
+            "unexpectedError": "Er is een onverwachte fout opgetreden. Probeer het opnieuw."
+        }
+    },
+    "Dashboard": {
+        "title": "Dashboard",
+        "welcome": "Welkom",
+        "stats": {
+            "logins": "Aanmeldingen",
+            "status": "Status",
+            "role": "Rol"
+        },
+        "profileInfo": {
+            "title": "Profielinformatie",
+            "email": "E-mail",
+            "fullName": "Volledige naam",
+            "language": "Voorkeurstaal",
+            "emailVerified": "E-mail geverifieerd",
+            "lastLogin": "Laatste aanmelding",
+            "notSet": "Niet ingesteld",
+            "yes": "Ja",
+            "no": "Nee"
+        },
+        "quickActions": {
+            "title": "Snelle acties",
+            "courses": {
+                "title": "Mijn cursussen",
+                "description": "Bekijk mijn cursussen"
+            },
+            "schedule": {
+                "title": "Planning",
+                "description": "Beheer mijn rooster"
+            },
+            "documents": {
+                "title": "Documenten",
+                "description": "Mijn documenten"
+            },
+            "community": {
+                "title": "Gemeenschap",
+                "description": "Sluit je aan bij groepen"
+            }
+        },
+        "roles": {
+            "student": "Student",
+            "tutor": "Tutor",
+            "admin": "Beheerder",
+            "super_admin": "Super Beheerder"
+        },
+        "statuses": {
+            "active": "Actief",
+            "inactive": "Inactief",
+            "suspended": "Geschorst",
+            "pending_verification": "Verificatie in behandeling"
+        }
     }
 }

@@ -30,12 +30,12 @@
 
 .footer-link {
     /* Default: slightly larger bold black */
-    @apply text-base font-semibold text-black opacity-100 transition-all duration-200 inline-block transform;
+    @apply text-base font-semibold text-black opacity-100 transition-colors duration-200 inline-block;
 }
 
 .footer-link:hover {
-    /* On hover: bold, white, a bit bigger */
-    @apply text-white font-bold scale-110;
+    /* On hover: white color only, same font weight */
+    @apply text-white;
 }
 
 /* Social Media Links */
@@ -44,7 +44,7 @@
 }
 
 .footer-social-link {
-    @apply w-12 h-12 rounded-xl bg-white/90 text-black hover:bg-white hover:text-black flex items-center justify-center transition-all duration-300 transform hover:scale-110 shadow-md hover:shadow-lg;
+    @apply w-12 h-12 rounded-xl bg-white/90 text-black hover:bg-white hover:text-black flex items-center justify-center transition-all duration-300 shadow-md hover:shadow-lg;
 }
 
 /* Newsletter Section */
@@ -69,7 +69,7 @@
 }
 
 .footer-newsletter-button {
-    @apply px-6 py-3 bg-black text-[#00e5ff] font-semibold rounded-lg hover:bg-black/90 hover:shadow-lg transition-all duration-300 transform hover:scale-105 whitespace-nowrap;
+    @apply px-6 py-3 bg-black text-[#00e5ff] font-semibold rounded-lg hover:bg-black/90 hover:shadow-lg transition-all duration-300 whitespace-nowrap;
 }
 
 /* Bottom Bar */
@@ -90,11 +90,11 @@
 }
 
 .footer-legal-link {
-    @apply text-base font-semibold text-black opacity-90 transition-all duration-200 inline-block transform;
+    @apply text-base font-semibold text-black opacity-90 transition-colors duration-200 inline-block;
 }
 
 .footer-legal-link:hover {
-    @apply text-white font-bold scale-110 opacity-100;
+    @apply text-white opacity-100;
 }
 
 .footer-separator {
