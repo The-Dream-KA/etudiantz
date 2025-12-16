@@ -48,7 +48,9 @@ interface HeroCarouselTranslations {
 }
 
 export default function HeroCarousel({ locale }: HeroCarouselProps) {
-    const [isLeftHovered, setIsLeftHovered] = useState(false);
+    // ANIMATION DISABLED - Uncomment line below to re-enable hover expansion animation
+    // const [isLeftHovered, setIsLeftHovered] = useState(false);
+    const [isLeftHovered] = useState(false); // Fixed to false - no animation
     const translations = useTranslation(locale);
 
     if (!translations.HeroCarousel) {
@@ -199,8 +201,9 @@ export default function HeroCarousel({ locale }: HeroCarouselProps) {
                 {/* Left Panel - Current Slide with Hover Expansion */}
                 <div
                     className={`relative ${isLeftHovered ? 'w-[95%]' : 'w-1/2'} ${current.bgColor} ${current.textColor} flex items-center justify-start px-8 md:px-12 lg:px-20 pt-24 transition-all duration-700 ease-in-out overflow-hidden group`}
-                    onMouseEnter={() => setIsLeftHovered(true)}
-                    onMouseLeave={() => setIsLeftHovered(false)}
+                // ANIMATION DISABLED - Uncomment lines below to re-enable hover expansion
+                // onMouseEnter={() => setIsLeftHovered(true)}
+                // onMouseLeave={() => setIsLeftHovered(false)}
                 >
                     {/* Student Image - Shown on Hover */}
                     <div className={`absolute right-0 top-0 h-full w-1/2 flex items-end justify-end pointer-events-none transition-all duration-700 ${isLeftHovered ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-full'}`}>

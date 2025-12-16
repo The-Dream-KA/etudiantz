@@ -111,7 +111,7 @@ export default function Footer({ locale }: FooterProps) {
                             </svg>
                         </Link>
                         <Link
-                            href="https://instagram.com"
+                            href="https://www.instagram.com/etudiantzbe/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="primary-button-white-blackhover !p-3 !w-12 !h-12 flex items-center justify-center"
@@ -122,7 +122,7 @@ export default function Footer({ locale }: FooterProps) {
                             </svg>
                         </Link>
                         <Link
-                            href="https://facebook.com"
+                            href="https://www.facebook.com/profile.php?id=61585128665095"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="primary-button-white-blackhover !p-3 !w-12 !h-12 flex items-center justify-center"
@@ -165,29 +165,29 @@ export default function Footer({ locale }: FooterProps) {
                         </h3>
                         <ul className="footer-links">
                             <li>
-                                <Link href={`/${locale}/students/jobs`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.students.jobs}
-                                </Link>
+                                </span>
                             </li>
                             <li>
-                                <Link href={`/${locale}/students/housing`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.students.housing}
-                                </Link>
+                                </span>
                             </li>
                             <li>
-                                <Link href={`/${locale}/students/transport`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.students.transport}
-                                </Link>
+                                </span>
                             </li>
                             <li>
-                                <Link href={`/${locale}/students/discounts`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.students.discounts}
-                                </Link>
+                                </span>
                             </li>
                             <li>
-                                <Link href={`/${locale}/students/profile`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.students.profile}
-                                </Link>
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -199,29 +199,29 @@ export default function Footer({ locale }: FooterProps) {
                         </h3>
                         <ul className="footer-links">
                             <li>
-                                <Link href={`/${locale}/employers/post-job`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.employers.postJob}
-                                </Link>
+                                </span>
                             </li>
                             <li>
-                                <Link href={`/${locale}/employers/find-talent`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.employers.findTalent}
-                                </Link>
+                                </span>
                             </li>
                             <li>
-                                <Link href={`/${locale}/employers/pricing`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.employers.pricing}
-                                </Link>
+                                </span>
                             </li>
                             <li>
-                                <Link href={`/${locale}/employers/features`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.employers.features}
-                                </Link>
+                                </span>
                             </li>
                             <li>
-                                <Link href={`/${locale}/employers/resources`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.employers.resources}
-                                </Link>
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -233,29 +233,29 @@ export default function Footer({ locale }: FooterProps) {
                         </h3>
                         <ul className="footer-links">
                             <li>
-                                <Link href={`/${locale}/about`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.company.about}
-                                </Link>
+                                </span>
                             </li>
                             <li>
-                                <Link href={`/${locale}/contact`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.company.contact}
-                                </Link>
+                                </span>
                             </li>
                             <li>
-                                <Link href={`/${locale}/blog`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.company.blog}
-                                </Link>
+                                </span>
                             </li>
                             <li>
-                                <Link href={`/${locale}/faq`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.company.faq}
-                                </Link>
+                                </span>
                             </li>
                             <li>
-                                <Link href={`/${locale}/support`} className="footer-link">
+                                <span className="footer-link" style={{ cursor: 'default' }}>
                                     {t.company.support}
-                                </Link>
+                                </span>
                             </li>
                         </ul>
                     </div>
@@ -270,17 +270,17 @@ export default function Footer({ locale }: FooterProps) {
                             © {currentYear} EtudiantZ.be. {t.bottom.rights}
                         </p>
                         <div className="footer-legal">
-                            <Link href={`/${locale}/privacy`} className="footer-legal-link">
+                            <span className="footer-legal-link" style={{ cursor: 'default' }}>
                                 {t.bottom.privacy}
-                            </Link>
+                            </span>
                             <span className="footer-separator">•</span>
-                            <Link href={`/${locale}/terms`} className="footer-legal-link">
+                            <span className="footer-legal-link" style={{ cursor: 'default' }}>
                                 {t.bottom.terms}
-                            </Link>
+                            </span>
                             <span className="footer-separator">•</span>
-                            <Link href={`/${locale}/cookies`} className="footer-legal-link">
+                            <span className="footer-legal-link" style={{ cursor: 'default' }}>
                                 {t.bottom.cookies}
-                            </Link>
+                            </span>
                         </div>
                     </div>
                 </div>

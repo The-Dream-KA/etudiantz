@@ -268,5 +268,99 @@
             "suspended": "Suspended",
             "pending_verification": "Pending Verification"
         }
+    },
+    "comingSoon": {
+        "badge": "COMING SOON",
+        "emailPlaceholder": "Enter your email address",
+        "joinWaitlist": "Join Waiting List",
+        "joining": "Joining...",
+        "successMessage": "You're on the list! We'll notify you when we launch.",
+        "info": "Be among the first to know when this service goes live."
+    },
+    "SocialProof": {
+        "badge": "TRUSTED BY THOUSANDS",
+        "title": "Join Belgium's Fastest Growing Student Community",
+        "subtitle": "Thousands of students and employers already trust EtudiantZ to connect, hire, and succeed.",
+        "stats": {
+            "students": {
+                "value": "15,000+",
+                "label": "Active Students"
+            },
+            "jobs": {
+                "value": "2,500+",
+                "label": "Jobs Posted Monthly"
+            },
+            "employers": {
+                "value": "800+",
+                "label": "Partner Employers"
+            },
+            "satisfaction": {
+                "value": "4.8/5",
+                "label": "Student Satisfaction"
+            }
+        },
+        "testimonialsTitle": "What Students Say About Us",
+        "testimonials": [
+            {
+                "name": "Emma De Vries",
+                "role": "Business Student",
+                "university": "KU Leuven",
+                "content": "I found my perfect student job in just 3 days! No more walking around with printed CVs. The platform is so easy to use and employers actually respond.",
+                "avatar": "ED"
+            },
+            {
+                "name": "Maxime Janssen",
+                "role": "Engineering Student",
+                "university": "UGent",
+                "content": "Finally, a platform that understands student schedules. I can filter jobs by my availability and apply with one click. Game changer!",
+                "avatar": "LJ"
+            },
+            {
+                "name": "Sophie Dubois",
+                "role": "Law Student",
+                "university": "ULB",
+                "content": "The schedule management feature is brilliant. My employer updates my shifts instantly and I get notifications. No more confusion about when I work!",
+                "avatar": "SD"
+            }
+        ]
+    },
+    "FAQ": {
+        "badge": "FREQUENTLY ASKED QUESTIONS",
+        "title": "Got Questions? We've Got Answers",
+        "subtitle": "Everything you need to know about finding student jobs on EtudiantZ",
+        "items": [
+            {
+                "question": "How do I create my profile?",
+                "answer": "Creating your profile is simple! Click on 'Sign Up', enter your email and basic information, then upload or scan your CV. Our AI will help you optimize it to stand out to employers. The whole process takes less than 5 minutes."
+            },
+            {
+                "question": "Is EtudiantZ really free for students?",
+                "answer": "Yes, absolutely! EtudiantZ is 100% free for students. You can create your profile, browse jobs, apply to positions, and manage your schedule without any cost. We believe every student deserves access to quality job opportunities."
+            },
+            {
+                "question": "How does the matching system work?",
+                "answer": "Our smart matching algorithm analyzes your profile, availability, location, and preferences to show you the most relevant job opportunities. You'll only see jobs that fit your schedule and match your skills, saving you time and increasing your chances of getting hired."
+            },
+            {
+                "question": "Can I apply to multiple jobs at once?",
+                "answer": "Yes! Once your profile is complete, you can apply to multiple jobs with just one click. No need to fill out the same information over and over. Your profile information is automatically sent to employers when you apply."
+            },
+            {
+                "question": "How quickly do employers respond?",
+                "answer": "Most employers on our platform respond within 48 hours. You'll receive notifications via email and in your dashboard when an employer views your application or wants to schedule an interview. You can track all your applications in real-time."
+            },
+            {
+                "question": "What if I need to change my availability?",
+                "answer": "You can update your availability anytime in your profile settings. The system will automatically adjust which jobs are shown to you. If you're already working, you can also coordinate schedule changes directly with your employer through the platform."
+            },
+            {
+                "question": "Do I need work experience to find a job?",
+                "answer": "Not at all! Many employers on EtudiantZ specifically look for students without experience. We have opportunities for first-time workers as well as positions for students with experience. Just be honest in your profile and highlight your skills and motivation."
+            },
+            {
+                "question": "How do I get paid?",
+                "answer": "Payment arrangements are made directly with your employer. During the interview or job offer, you'll discuss payment terms, frequency, and method. EtudiantZ helps you find the job and manage your schedule, but employment contracts and payments are handled between you and your employer."
+            }
+        ]
     }
 }

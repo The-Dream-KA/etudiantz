@@ -144,7 +144,7 @@ const StudentServices = ({ locale }: StudentServicesProps) => {
                 {/* Services Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {services.map((service) => (
-                        <Link key={service.key} href={service.link} className="service-card">
+                        <div key={service.key} className="service-card" style={{ cursor: 'default' }}>
                             <div className="service-card-icon">{service.icon}</div>
                             <h3 className="service-card-title">
                                 {t.services[service.key as keyof typeof t.services].title}
@@ -152,7 +152,7 @@ const StudentServices = ({ locale }: StudentServicesProps) => {
                             <p className="service-card-description">
                                 {t.services[service.key as keyof typeof t.services].description}
                             </p>
-                        </Link>
+                        </div>
                     ))}
                 </div>
             </div>

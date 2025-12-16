@@ -268,5 +268,99 @@
             "suspended": "Geschorst",
             "pending_verification": "Verificatie in behandeling"
         }
+    },
+    "comingSoon": {
+        "badge": "BINNENKORT BESCHIKBAAR",
+        "emailPlaceholder": "Voer je e-mailadres in",
+        "joinWaitlist": "Schrijf in op wachtlijst",
+        "joining": "Inschrijven...",
+        "successMessage": "Je staat op de lijst! We laten je weten wanneer we lanceren.",
+        "info": "Wees een van de eersten die het weten wanneer deze service live gaat."
+    },
+    "SocialProof": {
+        "badge": "VERTROUWD DOOR DUIZENDEN",
+        "title": "Sluit je aan bij België's Snelst Groeiende Studentengemeenschap",
+        "subtitle": "Duizenden studenten en werkgevers vertrouwen al op EtudiantZ om te verbinden, aan te werven en te slagen.",
+        "stats": {
+            "students": {
+                "value": "15.000+",
+                "label": "Actieve Studenten"
+            },
+            "jobs": {
+                "value": "2.500+",
+                "label": "Jobs per Maand Gepost"
+            },
+            "employers": {
+                "value": "800+",
+                "label": "Partner Werkgevers"
+            },
+            "satisfaction": {
+                "value": "4.8/5",
+                "label": "Studenttevredenheid"
+            }
+        },
+        "testimonialsTitle": "Wat Studenten Over Ons Zeggen",
+        "testimonials": [
+            {
+                "name": "Emma De Vries",
+                "role": "Bedrijfskundestudent",
+                "university": "KU Leuven",
+                "content": "Ik vond mijn perfecte studentenjob in slechts 3 dagen! Geen rondlopen meer met gedrukte CV's. Het platform is zo makkelijk te gebruiken en werkgevers reageren echt.",
+                "avatar": "ED"
+            },
+            {
+                "name": "Maxime Janssen",
+                "role": "Ingenieursstudent",
+                "university": "UGent",
+                "content": "Eindelijk een platform dat studentenroosters begrijpt. Ik kan jobs filteren op mijn beschikbaarheid en solliciteren met één klik. Een game changer!",
+                "avatar": "LJ"
+            },
+            {
+                "name": "Sophie Dubois",
+                "role": "Rechtenstudent",
+                "university": "ULB",
+                "content": "De roostertbeheer functie is briljant. Mijn werkgever update mijn shifts meteen en ik krijg notificaties. Geen verwarring meer over wanneer ik werk!",
+                "avatar": "SD"
+            }
+        ]
+    },
+    "FAQ": {
+        "badge": "VEELGESTELDE VRAGEN",
+        "title": "Vragen? Wij Hebben de Antwoorden",
+        "subtitle": "Alles wat je moet weten over het vinden van studentenjobs op EtudiantZ",
+        "items": [
+            {
+                "question": "Hoe maak ik mijn profiel aan?",
+                "answer": "Je profiel aanmaken is simpel! Klik op 'Aanmelden', voer je e-mail en basisinformatie in, en upload of scan dan je CV. Onze AI helpt je het te optimaliseren om op te vallen bij werkgevers. Het hele proces duurt minder dan 5 minuten."
+            },
+            {
+                "question": "Is EtudiantZ echt gratis voor studenten?",
+                "answer": "Ja, absoluut! EtudiantZ is 100% gratis voor studenten. Je kunt je profiel aanmaken, door jobs bladeren, solliciteren en je rooster beheren zonder enige kosten. Wij geloven dat elke student toegang verdient tot kwalitatieve jobmogelijkheden."
+            },
+            {
+                "question": "Hoe werkt het matchingsysteem?",
+                "answer": "Ons slim matchingalgoritme analyseert je profiel, beschikbaarheid, locatie en voorkeuren om je de meest relevante jobmogelijkheden te tonen. Je ziet alleen jobs die bij je rooster passen en bij je vaardigheden aansluiten, wat je tijd bespaart en je kansen op een baan vergroot."
+            },
+            {
+                "question": "Kan ik op meerdere jobs tegelijk solliciteren?",
+                "answer": "Ja! Zodra je profiel compleet is, kun je met één klik op meerdere jobs solliciteren. Je hoeft niet steeds dezelfde informatie in te vullen. Je profielgegevens worden automatisch naar werkgevers gestuurd wanneer je solliciteert."
+            },
+            {
+                "question": "Hoe snel reageren werkgevers?",
+                "answer": "De meeste werkgevers op ons platform reageren binnen 48 uur. Je ontvangt meldingen via e-mail en in je dashboard wanneer een werkgever je sollicitatie bekijkt of een interview wil plannen. Je kunt al je sollicitaties in real-time volgen."
+            },
+            {
+                "question": "Wat als ik mijn beschikbaarheid moet wijzigen?",
+                "answer": "Je kunt je beschikbaarheid op elk moment bijwerken in je profielinstellingen. Het systeem zal automatisch aanpassen welke jobs aan je worden getoond. Als je al werkt, kun je ook roostertwijzigingen direct met je werkgever coördineren via het platform."
+            },
+            {
+                "question": "Heb ik werkervaring nodig om een job te vinden?",
+                "answer": "Helemaal niet! Veel werkgevers op EtudiantZ zoeken specifiek naar studenten zonder ervaring. We hebben mogelijkheden voor beginners en ook posities voor studenten met ervaring. Wees gewoon eerlijk in je profiel en benadruk je vaardigheden en motivatie."
+            },
+            {
+                "question": "Hoe word ik betaald?",
+                "answer": "Betalingsregelingen worden rechtstreeks met je werkgever gemaakt. Tijdens het sollicitatiegesprek of de jobaanbieding bespreek je de betalingsvoorwaarden, frequentie en methode. EtudiantZ helpt je de job te vinden en je rooster te beheren, maar arbeidscontracten en betalingen worden afgehandeld tussen jou en je werkgever."
+            }
+        ]
     }
 }

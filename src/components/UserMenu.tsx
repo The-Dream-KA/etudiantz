@@ -82,12 +82,12 @@ export default function UserMenu() {
 
     if (!user) {
         return (
-            <Link
-                href={`/${locale}/auth`}
-                className="px-4 py-2 bg-black text-white rounded-lg font-semibold text-sm hover:bg-gray-800 transition-colors whitespace-nowrap"
+            <button
+                className="px-4 py-2 bg-black text-white rounded-lg font-semibold text-sm whitespace-nowrap cursor-default"
+                disabled
             >
                 {t.signIn}
-            </Link>
+            </button>
         )
     }
 

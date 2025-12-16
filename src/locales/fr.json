@@ -268,5 +268,99 @@
             "suspended": "Suspendu",
             "pending_verification": "En attente de vérification"
         }
+    },
+    "comingSoon": {
+        "badge": "BIENTÔT DISPONIBLE",
+        "emailPlaceholder": "Entrez votre adresse e-mail",
+        "joinWaitlist": "Rejoindre la liste d'attente",
+        "joining": "Inscription...",
+        "successMessage": "Vous êtes sur la liste ! Nous vous préviendrons lors du lancement.",
+        "info": "Soyez parmi les premiers informés du lancement de ce service."
+    },
+    "SocialProof": {
+        "badge": "APPROUVÉ PAR DES MILLIERS",
+        "title": "Rejoins la Communauté Étudiante qui Grandit le Plus Vite en Belgique",
+        "subtitle": "Des milliers d'étudiants et d'employeurs font déjà confiance à EtudiantZ pour se connecter, recruter et réussir.",
+        "stats": {
+            "students": {
+                "value": "15\u00A0000+",
+                "label": "Étudiants Actifs"
+            },
+            "jobs": {
+                "value": "2\u00A0500+",
+                "label": "Jobs Publiés par Mois"
+            },
+            "employers": {
+                "value": "800+",
+                "label": "Employeurs Partenaires"
+            },
+            "satisfaction": {
+                "value": "4.8/5",
+                "label": "Satisfaction Étudiante"
+            }
+        },
+        "testimonialsTitle": "Ce que les Étudiants Disent de Nous",
+        "testimonials": [
+            {
+                "name": "Emma De Vries",
+                "role": "Étudiante en Commerce",
+                "university": "KU Leuven",
+                "content": "J'ai trouvé mon job étudiant parfait en seulement 3 jours ! Plus besoin de faire le tour avec des CV imprimés. La plateforme est super facile à utiliser et les employeurs répondent vraiment.",
+                "avatar": "ED"
+            },
+            {
+                "name": "Maxime Janssen",
+                "role": "Étudiant en Ingénierie",
+                "university": "UGent",
+                "content": "Enfin une plateforme qui comprend les horaires des étudiants. Je peux filtrer les jobs selon mes disponibilités et postuler en un clic. Révolutionnaire !",
+                "avatar": "LJ"
+            },
+            {
+                "name": "Sophie Dubois",
+                "role": "Étudiante en Droit",
+                "university": "ULB",
+                "content": "La fonction de gestion d'horaire est géniale. Mon employeur met à jour mes shifts instantanément et je reçois des notifications. Plus de confusion sur quand je travaille !",
+                "avatar": "SD"
+            }
+        ]
+    },
+    "FAQ": {
+        "badge": "QUESTIONS FRÉQUENTES",
+        "title": "Des Questions ? On a les Réponses",
+        "subtitle": "Tout ce que tu dois savoir pour trouver ton job étudiant sur EtudiantZ",
+        "items": [
+            {
+                "question": "Comment créer mon profil ?",
+                "answer": "Créer ton profil est super simple ! Clique sur 'S'inscrire', entre ton email et tes infos de base, puis télécharge ou scanne ton CV. Notre IA t'aidera à l'optimiser pour te démarquer auprès des employeurs. Tout le processus prend moins de 5 minutes."
+            },
+            {
+                "question": "EtudiantZ est-il vraiment gratuit pour les étudiants ?",
+                "answer": "Oui, absolument ! EtudiantZ est 100% gratuit pour les étudiants. Tu peux créer ton profil, parcourir les jobs, postuler et gérer ton horaire sans aucun frais. Nous croyons que chaque étudiant mérite un accès à des opportunités de qualité."
+            },
+            {
+                "question": "Comment fonctionne le système de matching ?",
+                "answer": "Notre algorithme de matching intelligent analyse ton profil, tes disponibilités, ta localisation et tes préférences pour te montrer les opportunités les plus pertinentes. Tu ne verras que des jobs qui correspondent à ton emploi du temps et à tes compétences, te faisant gagner du temps et augmentant tes chances d'être embauché."
+            },
+            {
+                "question": "Puis-je postuler à plusieurs jobs en même temps ?",
+                "answer": "Oui ! Une fois ton profil complet, tu peux postuler à plusieurs jobs en un seul clic. Pas besoin de remplir les mêmes informations encore et encore. Tes infos de profil sont automatiquement envoyées aux employeurs quand tu postules."
+            },
+            {
+                "question": "En combien de temps les employeurs répondent-ils ?",
+                "answer": "La plupart des employeurs sur notre plateforme répondent dans les 48 heures. Tu recevras des notifications par email et dans ton tableau de bord quand un employeur consulte ta candidature ou veut planifier un entretien. Tu peux suivre toutes tes candidatures en temps réel."
+            },
+            {
+                "question": "Et si je dois changer mes disponibilités ?",
+                "answer": "Tu peux mettre à jour tes disponibilités à tout moment dans les paramètres de ton profil. Le système ajustera automatiquement les jobs qui te sont présentés. Si tu travailles déjà, tu peux aussi coordonner les changements d'horaire directement avec ton employeur via la plateforme."
+            },
+            {
+                "question": "Ai-je besoin d'expérience pour trouver un job ?",
+                "answer": "Pas du tout ! Beaucoup d'employeurs sur EtudiantZ cherchent spécifiquement des étudiants sans expérience. Nous avons des opportunités pour les débutants ainsi que des postes pour les étudiants expérimentés. Sois juste honnête dans ton profil et mets en avant tes compétences et ta motivation."
+            },
+            {
+                "question": "Comment suis-je payé ?",
+                "answer": "Les modalités de paiement sont convenues directement avec ton employeur. Pendant l'entretien ou l'offre d'emploi, tu discuteras des conditions de paiement, de la fréquence et de la méthode. EtudiantZ t'aide à trouver le job et gérer ton planning, mais les contrats de travail et les paiements se font entre toi et ton employeur."
+            }
+        ]
     }
 }
