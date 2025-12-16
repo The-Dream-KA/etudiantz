@@ -2,6 +2,7 @@
 
 import useTranslation from '@/hooks/useTranslation';
 import '@/styles/components/social-proof.css';
+import '@/styles/components/fluid-highlight.css';
 
 interface SocialProofProps {
     locale: string;
@@ -62,19 +63,35 @@ const SocialProof = ({ locale }: SocialProofProps) => {
                 {/* Stats Grid */}
                 <div className="stats-grid">
                     <div className="stat-card">
-                        <div className="stat-value">{t.stats.students.value}</div>
+                        <div className="stat-value">
+                            <span className="fluid-highlight-container">
+                                <span className="fluid-highlight fluid-highlight-cyan">{t.stats.students.value}</span>
+                            </span>
+                        </div>
                         <div className="stat-label">{t.stats.students.label}</div>
                     </div>
                     <div className="stat-card">
-                        <div className="stat-value">{t.stats.jobs.value}</div>
+                        <div className="stat-value">
+                            <span className="fluid-highlight-container">
+                                <span className="fluid-highlight fluid-highlight-cyan">{t.stats.jobs.value}</span>
+                            </span>
+                        </div>
                         <div className="stat-label">{t.stats.jobs.label}</div>
                     </div>
                     <div className="stat-card">
-                        <div className="stat-value">{t.stats.employers.value}</div>
+                        <div className="stat-value">
+                            <span className="fluid-highlight-container">
+                                <span className="fluid-highlight fluid-highlight-cyan">{t.stats.employers.value}</span>
+                            </span>
+                        </div>
                         <div className="stat-label">{t.stats.employers.label}</div>
                     </div>
                     <div className="stat-card">
-                        <div className="stat-value">{t.stats.satisfaction.value}</div>
+                        <div className="stat-value">
+                            <span className="fluid-highlight-container">
+                                <span className="fluid-highlight fluid-highlight-cyan">{t.stats.satisfaction.value}</span>
+                            </span>
+                        </div>
                         <div className="stat-label">{t.stats.satisfaction.label}</div>
                     </div>
                 </div>
