@@ -100,9 +100,9 @@ export default function HeroCarousel({ locale }: HeroCarouselProps) {
     return (
         <>
             {/* Mobile Layout - Vertical Stack */}
-            <div className="md:hidden">
+            <div className="md:hidden -mt-0">
                 {/* Students Section */}
-                <div className={`relative w-full min-h-screen ${current.bgColor} ${current.textColor} flex flex-col items-center justify-center px-4 py-20 overflow-hidden`}>
+                <div className={`relative w-full min-h-screen ${current.bgColor} ${current.textColor} flex flex-col items-center justify-center px-4 pt-20 pb-12 overflow-hidden`}>
                     {/* Student Image - Mobile */}
                     <div className="absolute bottom-0 right-0 w-3/5 h-2/5 flex items-end justify-end pointer-events-none opacity-30">
                         <Image
@@ -127,7 +127,7 @@ export default function HeroCarousel({ locale }: HeroCarouselProps) {
                                 alt="Student Icon"
                                 width={60}
                                 height={60}
-                                className="absolute -top-8 right-0 w-14 h-14 animate-float"
+                                className="absolute top-4 right-0 w-14 h-14 animate-float"
                             />
                         </div>
                         <h1 className="text-3xl font-black leading-tight">
@@ -177,7 +177,7 @@ export default function HeroCarousel({ locale }: HeroCarouselProps) {
                 </div>
 
                 {/* Employers Section */}
-                <div id="employers-section" className={`relative w-full min-h-screen ${next.bgColor} ${next.textColor} flex flex-col items-center justify-center px-4 py-20 overflow-hidden`}>
+                <div id="employers-section" className={`relative w-full min-h-screen ${next.bgColor} ${next.textColor} flex flex-col items-center justify-center px-4 pt-24 pb-12 overflow-hidden`}>
                     <div className="w-full max-w-lg space-y-4 z-10">
                         <p className="text-xs font-bold tracking-widest opacity-90 uppercase">
                             {next.category}
@@ -197,10 +197,10 @@ export default function HeroCarousel({ locale }: HeroCarouselProps) {
             </div>
 
             {/* Desktop Layout - Side by Side */}
-            <div className="hidden md:flex relative w-full h-screen overflow-hidden">
+            <div className="hidden md:flex relative w-full min-h-screen overflow-hidden pt-16 md:pt-18">
                 {/* Left Panel - Current Slide with Hover Expansion */}
                 <div
-                    className={`relative ${isLeftHovered ? 'w-[95%]' : 'w-1/2'} ${current.bgColor} ${current.textColor} flex items-center justify-start px-8 md:px-12 lg:px-20 pt-24 transition-all duration-700 ease-in-out overflow-hidden group`}
+                    className={`relative ${isLeftHovered ? 'w-[95%]' : 'w-1/2'} ${current.bgColor} ${current.textColor} flex items-center justify-start px-8 md:px-12 lg:px-20 pb-12 transition-all duration-700 ease-in-out overflow-hidden group`}
                 // ANIMATION DISABLED - Uncomment lines below to re-enable hover expansion
                 // onMouseEnter={() => setIsLeftHovered(true)}
                 // onMouseLeave={() => setIsLeftHovered(false)}
@@ -229,7 +229,7 @@ export default function HeroCarousel({ locale }: HeroCarouselProps) {
                                 alt="Student Icon"
                                 width={80}
                                 height={80}
-                                className="absolute -top-10 right-0 w-20 h-20 animate-float"
+                                className="absolute top-2 right-0 w-20 h-20 animate-float"
                             />
                         </div>
                         <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black leading-tight">
@@ -285,7 +285,7 @@ export default function HeroCarousel({ locale }: HeroCarouselProps) {
                     {isLeftHovered ? (
                         <ArrowRight className="w-8 h-8 animate-pulse" />
                     ) : (
-                        <div className="max-w-2xl w-full space-y-4 md:space-y-6 z-10 px-8 md:px-12 lg:px-20 pt-24">
+                        <div className="max-w-2xl w-full space-y-4 md:space-y-6 z-10 px-8 md:px-12 lg:px-20 pb-12">
                             <p className="text-base md:text-lg font-bold tracking-widest opacity-90">
                                 {next.category}
                             </p>

@@ -15,7 +15,7 @@ export default function Home({ params }: { params: Promise<{ locale: string }> }
     const { locale } = use(params);
 
     return (
-        <div className="min-h-screen bg-white flex flex-col">
+        <div className="min-h-screen flex flex-col">
             <Header locale={locale} />
             <main className="flex-grow">
                 <HeroCarousel locale={locale} />
