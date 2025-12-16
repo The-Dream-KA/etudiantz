@@ -1,10 +1,10 @@
 import './glowing.css';
-import '../../../../styles/components/primary-button-black-whitehover.css';
-import '../../../../styles/components/primary-button.css';
-import '../../../../styles/components/primary-button-white-blackhover-always.css';
-import '../../../../styles/components/primary-button-black-whitehover-always.css';
-import '../../../../styles/components/primary-button-00e5ff-whitehover-always.css';
-import '../../../../styles/components/primary-button-white-whitehover-always.css';
+import '../../../../../styles/components/primary-button-black-whitehover.css';
+import '../../../../../styles/components/primary-button.css';
+import '../../../../../styles/components/primary-button-white-blackhover-always.css';
+import '../../../../../styles/components/primary-button-black-whitehover-always.css';
+import '../../../../../styles/components/primary-button-00e5ff-whitehover-always.css';
+import '../../../../../styles/components/primary-button-white-whitehover-always.css';
 import Link from 'next/link';
 
 export default function GlowingButtonPage() {

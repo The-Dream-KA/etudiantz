@@ -12,7 +12,7 @@ export default function ProductDemo() {
     if (showDetail) {
         return (
             <div className="min-h-screen bg-white flex flex-col">
-                <Header onLocaleChange={setLocale} />
+                <Header locale={locale} />
                 <main className="flex-grow">
                     <ProductDetail
                         category="STUDENT HOUSING"
@@ -31,7 +31,7 @@ export default function ProductDemo() {
 
     return (
         <div className="min-h-screen bg-white flex flex-col">
-            <Header onLocaleChange={setLocale} />
+            <Header locale={locale} />
             <main className="flex-grow flex items-center justify-center p-12">
                 <div className="text-center space-y-6">
                     <h1 className="text-4xl font-bold text-gray-900">Product Detail Demo</h1>
