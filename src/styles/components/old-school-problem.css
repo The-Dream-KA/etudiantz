@@ -1,7 +1,7 @@
 /* New Wavy Timeline Styles matching the horizontal pill cards with dashed connectors */
 
 .old-school-problem-wrapper {
-  padding: 100px 20px 40px;
+  padding: 60px 20px 40px;
   text-align: center;
   background-color: #f8f9fa;
   overflow: visible;
@@ -11,7 +11,7 @@
 .old-school-problem-wrapper .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 60px 40px;
+  padding: 40px 40px;
   position: relative;
   z-index: 1;
   background:
@@ -37,7 +37,7 @@
 }
 
 .old-school-problem-wrapper .title {
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   font-weight: 800;
   margin-bottom: 8px;
   color: #ffffff;
@@ -53,13 +53,13 @@
 
 .hz-timeline {
   position: relative;
-  padding: 80px 0 30px;
+  padding: 60px 0 20px;
 }
 
 .hz-timeline-line {
   position: absolute;
-  top: 116px;
-  /* 80px padding + 36px for marker center */
+  top: 96px;
+  /* 60px padding + 36px for marker center */
   left: 36px;
   /* half of marker width to start from center of first marker */
   right: 36px;
@@ -82,6 +82,8 @@
   min-height: 160px;
   padding-top: 54px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .hz-marker {
@@ -111,12 +113,12 @@
   margin-top: 28px;
   background: #ff1b1b;
   color: #fff;
-  padding: 16px 18px;
+  padding: 14px 16px;
   border-radius: 12px;
   min-width: 180px;
   max-width: 260px;
-  min-height: 200px;
-  height: auto;
+  min-height: 140px;
+  flex: 1;
   position: relative;
   text-align: left;
   word-wrap: break-word;
@@ -163,7 +165,7 @@
 }
 
 .old-school-problem-wrapper .bottom-message {
-  margin-top: 56px;
+  margin-top: 40px;
   font-size: 1.05rem;
   font-style: italic;
   color: #6c757d;

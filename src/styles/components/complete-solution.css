@@ -1,7 +1,7 @@
 /* Complete Solution Section - EXACT SAME DESIGN as old-school-problem but with GREEN theme */
 
 .complete-solution-wrapper {
-    padding: 40px 20px 100px;
+    padding: 40px 20px 60px;
     text-align: center;
     background-color: #f8f9fa;
     overflow: visible;
@@ -11,7 +11,7 @@
 .complete-solution-wrapper .container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 60px 40px;
+    padding: 40px 40px;
     position: relative;
     z-index: 1;
     background:
@@ -34,7 +34,7 @@
 }
 
 .complete-solution-wrapper .title {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
     font-weight: 800;
     margin-bottom: 8px;
     color: #000000;
@@ -44,12 +44,12 @@
 
 .complete-solution-wrapper .hz-timeline {
     position: relative;
-    padding: 80px 0 30px;
+    padding: 60px 0 20px;
 }
 
 .complete-solution-wrapper .hz-timeline-line {
     position: absolute;
-    top: 116px;
+    top: 96px;
     left: 36px;
     right: 36px;
     height: 4px;
@@ -71,6 +71,8 @@
     padding-top: 54px;
     text-align: center;
     overflow: visible;
+    display: flex;
+    flex-direction: column;
 }
 
 .complete-solution-wrapper .hz-marker {
@@ -99,12 +101,12 @@
     margin-top: 28px;
     background: #ffffff;
     color: #000000;
-    padding: 16px 18px;
+    padding: 14px 16px;
     border-radius: 12px;
     min-width: 180px;
     max-width: 260px;
-    min-height: 220px;
-    height: auto;
+    min-height: 140px;
+    flex: 1;
     position: relative;
     text-align: left;
     overflow: hidden;
