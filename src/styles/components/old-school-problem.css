@@ -115,9 +115,12 @@
   border-radius: 12px;
   min-width: 180px;
   max-width: 260px;
-  height: 200px;
+  min-height: 200px;
+  height: auto;
   position: relative;
   text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .hz-step-box:before {

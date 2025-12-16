@@ -75,7 +75,7 @@
 
 .complete-solution-wrapper .hz-marker {
     position: absolute;
-    top: 36px;
+    top: 26px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
